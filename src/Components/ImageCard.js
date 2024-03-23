@@ -39,7 +39,6 @@ export default function ImageCard(props){
                         <p>{props.likes}</p>
                     </div>
 
-                    <i className="fa-solid fa-heart" onClick={(e)=>e.target.style.color = "red"}></i>
             </div>}
         </div>
     )
